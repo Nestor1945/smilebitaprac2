@@ -1,0 +1,130 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="icon" type="image/png" href="C:\Users\nrpinzon\Desktop\U Central Trabajos\Practica II\Imagenes/icono.png"/><br />
+<link href="styles/style.css" rel="stylesheet" type="text/css">
+<title>BITACORA PRACTICA II - PROBLEMA</title>
+</head>
+
+
+<body>
+<ol> <hr />  </ol>
+
+<fieldset contenteditable="false"  >
+
+<fieldset>
+
+<form action="procesar.php" method="post">
+  <legend><h1>INFORMACIÓN BASICA</h1>  </legend>
+  
+    <div class="top-row">
+  <div class="field-wrap">
+          
+  <div class="top-row">
+          <div class="field-wrap">
+          
+           <div class="field-wrap">
+           <label>
+           FECHA REGISTRO: <span class="req">	</span>
+           </label>
+           <input type="datetime-local" name="fechaHora" checked="checked">
+           </div> 
+             
+           <div class="field-wrap">
+           <label>
+           NOMBRE:
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <span class="req"> </span>
+           </label>
+           <input type="text" name="nombre"required autocomplete="on" size="30"/>
+           </div>
+           
+           
+           <div class="field-wrap">  
+ <br />   
+ <hr />  
+RECOMENDADO POR:
+  <p >
+Clase    <input type="radio" name="pl" value="Clase"> 
+Profesor <input type="radio" name="p1" value="profesor"> 
+Otro     <input type="radio" name="p1" value="Otro"> 
+  </p>
+           </div>
+           
+           
+           
+           <div class="field-wrap">
+TIPO DE CAMBIO:
+  <select name="menu_cambio" size="1">
+<option>Cambio		 </option>
+<option>Actualización</option>
+<option>Otro         </option>
+</select>
+		   </div>
+<br />
+          
+           
+ <div class="field-wrap"> 
+NIVEL DE IMPACTO:
+<input type="range" name="Sliderimpacto" id="Slider" class="sfm_slider" min="0" max="100" step="1" value="0">  
+<span class="sfm_slider">0</span>
+ </div>      
+</fieldset>
+         
+           
+         
+<fieldset>
+  <legend><h1>INFORMACIÓN </h1> </legend>
+  
+  		  <div class="field-wrap">
+          <textarea name="descripcion" rows="6" cols="52" placeholder="Descripcion de actualización"></textarea>
+          </div>
+  
+<button type="submit" class="button button-block"/>  Guardar  </button>
+</form>
+ </fieldset>     
+         
+         
+                   
+         
+         
+         
+       
+
+       	  
+        
+ <blockquote>&nbsp;</blockquote>
+ 
+
+ 
+ 
+ <!-- ESTILOS-->
+ 
+ <style> 
+ p {
+  color: #036;
+} 
+ 
+ input[type=search] {
+  border: 1px dotted #999;
+  border-radius: 0;
+
+  -webkit-appearance: none;
+}
+ 
+ 
+ </style>
+ 
+ 
+ 
+ 
+ 
+ 
+  
+
+</body>
+</html>
